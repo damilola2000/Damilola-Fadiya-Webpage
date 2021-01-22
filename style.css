@@ -8,3 +8,41 @@
     box-sizing: border-box;
     text-decoration: none;
 }
+
+.navbar {
+    position: fixed;
+    width: 100%;
+    background: crimson;
+    padding: 15px 0;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.max-width {
+    max-width: 1300px;
+    padding: 0 80px;
+    margin: auto;
+}
+
+.navbar .logo a {
+    color: #fff;
+    font-size: 35px;
+    font-weight: 600;
+}
+
+.navbar li {
+    list-style: none;
+    display: inline-block;
+}
+
+.navbar .max-width {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navbar .menu li a {
+    color: #fff;
+    font-size: 18px;
+    margin-left: 25px;
+    font-weight: 500;
+}
